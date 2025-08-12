@@ -1,0 +1,31 @@
+// Online C compiler to run C program online
+
+#include <stdio.h>
+
+
+int main()
+ {
+    float P,R,T, Simple_interest;
+
+    printf("C_program_Saro_World\n");
+
+    printf("Enter the value of Principal (Rs):");
+
+    scanf("%f",&P);
+
+    printf("Enter the value of Rate of Interest % :");
+
+    scanf("%f",&R);
+
+    printf("Enter the value of Time period (Year):");
+
+    scanf("%f",&T);
+
+    Simple_interest=(P*R*T)/100;
+
+    printf("he Value of Simple_interest is: %.0fRs",Simple_interest);
+
+
+    return 0;
+
+}
