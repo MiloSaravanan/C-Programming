@@ -1,0 +1,59 @@
+// Online C compiler to run C program online
+
+#include <stdio.h>
+
+
+int main()
+ {
+
+    int a,b;
+
+    printf("C_program_Saro_World\n");
+
+
+    printf("Enter the number a:");
+
+    scanf("%d",&a);
+
+    if(a%2==0)
+
+    {
+
+	printf("The number is even ");
+
+    }
+
+    else
+ 
+   {
+
+      	printf("The number is odd");
+  
+  }
+
+    return 0;
+
+}
+
+
+
+
+
+Output:
+
+Case 1:
+
+C_program_Saro_World
+
+Enter the number a:77
+
+The number is odd
+
+
+Case 2:
+
+C_program_Saro_World
+
+Enter the number a:842
+
+The number is even 

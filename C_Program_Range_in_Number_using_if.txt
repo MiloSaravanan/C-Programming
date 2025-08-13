@@ -1,0 +1,35 @@
+// Online C compiler to run C program online
+
+#include <stdio.h>
+
+
+int main()
+ {
+    int a;
+
+    printf("C_program_Saro_World\n");
+
+
+    printf("Enter the number a:");
+
+    scanf("%d",&a);
+
+    if(50<a && a<100)
+
+    {
+
+         printf("The number is Possible");
+
+    }
+
+    else
+ 
+   {
+
+      	printf("The number is not possible");
+  
+  }
+
+    return 0;
+
+}
